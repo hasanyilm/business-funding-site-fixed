@@ -95,7 +95,7 @@ const i18n: Record<Lang, Copy> = {
     langAlt: 'EN',
   } as Copy,
 };
-
+const t = (k: keyof Copy) => i18n[lang][k];
 const theme={navy:'#0b1e2d',cream:'#efe6d9',gold:'#caa24a'};
 
 export default function Page(){
