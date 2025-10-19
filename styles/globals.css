@@ -1,4 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root{--navy:#0b1e2d;--cream:#efe6d9;--gold:#caa24a}
+
+/* Theme variables */
+:root { --navy:#0b1e2d; --cream:#efe6d9; --gold:#caa24a; }
+
